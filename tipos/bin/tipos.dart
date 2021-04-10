@@ -12,4 +12,11 @@ void main(List<String> arguments) {
   } else {
     print(edad.abs());
   }
+
+  var texto1 = 'Comillas simples';
+  var texto2 = "Comillas dobles";
+  var texto3 = 'Comillas simples con\' delimitador';
+  var texto4 = "Comillas dobles con sencillas con ' delimitador";
+
+  print(texto3);
 }
